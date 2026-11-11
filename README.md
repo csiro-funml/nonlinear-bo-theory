@@ -1,6 +1,6 @@
 # Kernel-based Guarantees for Nonlinear Parametric Models in Bayesian Optimization
 
-This is a compact approximate-Thompson-sampling experiment for the finite-grid setting in the supplied paper (see [Reference](#reference) below). At observation count $t$, a fresh tanh MLP is initialized and optimized with the paper's general objective:
+This is a compact experiment to provide empirical illustrations for the theoretical results concerning the finite-grid setting for approximate Thompson sampling in the supplied paper (see [Reference](#reference) below). At observation count $t$, a fresh tanh MLP is initialized and optimized with the paper's general objective:
 
 $$L_t(\theta; \theta_{t,0}) = \sum_{i=1}^{t} \ell\bigl(g_\theta(x_i),y_i\bigr) + R_t(\theta;\theta_{t,0}),$$
 
