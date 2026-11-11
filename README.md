@@ -1,4 +1,4 @@
-# lfbotheory: neural randomized optimization
+# Kernel-based Guarantees for Nonlinear Parametric Models in Bayesian Optimization
 
 This is a compact approximate-Thompson-sampling experiment for the finite-grid setting in the supplied paper (see [Reference](#reference) below). At observation count $t$, a fresh tanh MLP is initialized and optimized with the paper's general objective:
 
