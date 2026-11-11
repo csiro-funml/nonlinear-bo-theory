@@ -1,6 +1,6 @@
 # lfbotheory: neural randomized optimization
 
-This is a compact approximate-Thompson-sampling experiment for the finite-grid setting in the supplied paper. At observation count $t$, a fresh tanh MLP is initialized and optimized with the paper's general objective:
+This is a compact approximate-Thompson-sampling experiment for the finite-grid setting in the supplied paper (see [Reference](#reference) below). At observation count $t$, a fresh tanh MLP is initialized and optimized with the paper's general objective:
 
 $$L_t(\theta; \theta_{t,0}) = \sum_{i=1}^{t} \ell\bigl(g_\theta(x_i),y_i\bigr) + R_t(\theta;\theta_{t,0}),$$
 
@@ -303,6 +303,8 @@ The implementation keeps policy, teacher, initial-design, observation-noise, and
 This implementation accompanies the following paper, to appear at NeurIPS 2026:
 
 > Oliveira, Rafael. “Kernel-based guarantees for nonlinear parametric models in Bayesian optimization.” In *Advances in Neural Information Processing Systems 39 (NeurIPS 2026)*, 2026.
+
+ArXiv preprint: https://arxiv.org/abs/2605.13160
 
 BibTeX:
 
