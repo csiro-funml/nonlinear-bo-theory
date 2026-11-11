@@ -1,0 +1,8 @@
+[project]
+name = "lfbotheory"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch", "matplotlib", "tqdm"]
+
+[tool.setuptools]
+py-modules = ["ts_variance_decay_experiment", "plot", "compare"]
